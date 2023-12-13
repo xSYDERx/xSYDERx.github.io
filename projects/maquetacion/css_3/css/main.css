@@ -1,0 +1,133 @@
+h1 > span {
+ color: rgba(155, 154, 120, 1);
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  gap: 56px;
+}
+
+header > div {
+  display: flex;
+  justify-content: center;
+}
+
+nav  li:first-of-type > a {
+  color: #9B9A78;
+}
+
+header > div > a:nth-of-type(2) {
+  margin-left: 20px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #9B9A78;
+  text-decoration: underline;
+}
+
+header > div > a:last-of-type {
+  margin-left: 20px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color:#9B9A78;
+  color: white;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  color: #909090;
+}
+
+main {
+  background-image: url(../img/Placeholder.png);
+  background-repeat: no-repeat;
+  background-size: 55%;
+  margin-top: 2em;
+}
+main > section {
+  margin-top: 2em;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  text-wrap: wrap;
+  padding-left: 1em;
+  color: #313131;
+}
+
+h2::before{
+  content: "";
+  position: absolute;
+  top: 22%;
+  right: 0;
+  left: 75%;
+  border-top: 5px solid;
+  border-image: linear-gradient(to right, rgba(155, 154, 120, 1) 25%, rgba(255, 255, 255, 0) 25% 100%) 1;; 
+
+}
+#container {
+  margin: 0;
+  padding: 10px 45px 10px 45px;
+  font-family: 'poppins';
+}
+
+main > section > p {
+  padding-left: 3em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+
+}
+ 
+
+main > section:first-of-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 50%;
+  background: rgba(255, 255, 255, 0.70);
+  backdrop-filter: blur(8px);
+}
+
+main > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 60%;
+  margin-top: 2%;
+}
+
+main > div > div {
+  display: flex;
+}
+
+
+section:last-of-type {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 2%;
+  padding-bottom: 2%;
+}
+
+section:last-of-type > div > p {
+  width: 70%;
+}

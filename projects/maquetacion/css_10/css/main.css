@@ -1,0 +1,145 @@
+@font-face {
+  font-family: GT-Walsheim;
+  src: url('../fonts/fonts/GT-Walsheim-Pro/GT-Walsheim-Regular.otf');
+}
+
+@font-face {
+  font-family: value-serif;
+  src: url('../fonts/fonts/Value-Serif-Pro-Regular/Value-Serif-Pro-Regular.ttf');
+}
+
+body {
+  font-family: "value-serif", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1A1A1A;
+  background-image: url('../img/pills.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-color: #faf5dd;
+}
+
+body > div:first-of-type {
+  background-image: url('../img/family.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 31.4%;
+}
+
+#container {
+  max-width: 1440px;
+  padding: 0 3%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+body > p {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  background-color: #ECF494;
+  margin-top: 0;
+  padding: 0.5% 0 0.5% 0;
+  font-family: 'poppins', sans-serif;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F6F4EF;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+header > img {
+  width: 10%;
+}
+
+header > nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  margin-left: 7%;
+  font-family: 'GT-Walsheim', sans-serif;
+  text-wrap: nowrap;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > div img {
+  width: 40%;
+}
+
+header > div > a:last-child {
+ background-color: #1A1A1A;
+ padding: 3% 8%;
+ border-radius: 10px;
+ color: white;
+}
+
+header > div > a {
+  text-wrap: nowrap;
+}
+
+main h1 {
+  font-family: 'value-serif', sans-serif;
+  font-size: 4em;
+  margin: 0;
+  width: 50%;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+main > section a {
+  background-color: #1A1A1A;
+  border-radius: 5px;
+  color: #EAF586;
+  padding: 0.7% 2%;
+}
+
+main > section:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+main > section:last-child > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+main > section:last-child > div > img {
+  width: 15%;
+  object-fit: contain;
+}
+
+main > section:last-child > div p {
+  width: 90%;
+  margin: 0;
+}

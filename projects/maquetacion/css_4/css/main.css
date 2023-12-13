@@ -1,0 +1,165 @@
+/* GLOBAL */
+
+body {
+  background: url(../img/background.png) no-repeat center center fixed;
+  background-size: cover;
+  font-family: "poppins", sans-serif;
+  color: #2E2F38;
+}
+
+#container {
+  width: 100%;
+  padding: 2% 5%;
+  max-width: 1440px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+/* HEADER */
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+header img {
+  width: 10%;
+  object-fit: contain;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  right: 100%;
+  gap: 30%;
+  text-wrap: nowrap;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  text-wrap: nowrap;
+}
+
+header > div > a {
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+header > div > a:last-child {
+  color: #FFFFFF;
+  background-color: #FA504D;
+  padding: 15px 40px;
+}
+
+
+/* MAIN */
+
+h1 {
+  font-family: "Belgrano", serif;
+  font-weight: 400;
+  margin-top: 8%;
+  font-size: 4rem;
+  width: 57%;
+  line-height: 1.5em;
+  margin-bottom: 2%;
+}
+
+h1::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../img/circle.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  top: 120px;
+  left: 210px;
+}
+
+main > section:first-child p {
+  font-size: 1.5rem;
+  width: 50%;
+  color: #8E8E8E; 
+  margin-bottom: 4%;
+}
+
+main > section:first-child p::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../img/line.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 80px;
+  height: 10px;
+  position: absolute;
+  top: 540px;
+}
+
+main > div
+{
+  width: 24%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+main > div > a {
+  font-weight: 600;
+  color: #FFFFFF;
+  padding: 15px 60px;
+  background-color: #FA504D;
+}
+
+main > div > div {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+}
+
+#artwork {
+  font-family: "belgrano", serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #2E2F38;
+}
+
+#artwork > div {
+  display: flex;
+  align-items: center;
+}
+
+#artwork img {
+  width: 30%;
+  object-fit: contain;
+}
+
+#window {
+  width: 40%;
+  object-fit: cover;
+}

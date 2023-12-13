@@ -1,0 +1,169 @@
+/* GLOBAL */
+
+body {
+  background: url(../img/ornament.svg) no-repeat center center fixed;
+  background-size: cover;
+  background-color: #EFEFEE;
+  font-family: 'Quattrocento', serif;
+  font-weight: 400;
+  color: #909090;
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  max-width: 1440px;
+}
+
+a {
+  text-decoration: none;
+  color: #303030;
+}	
+
+
+/* HEADER */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: top;
+  gap: 20px;
+  width: 33.3%;
+}
+
+header > h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  color: #303030;
+  width: 33.3%;
+  text-align: center;
+}
+
+header > h2 span {
+  color: #909090;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 33.3%;
+  justify-content: flex-end;
+}
+
+/* MAIN */
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
+  color: #303030;
+  text-align: center;
+}
+
+main > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#girl {
+  width: 50%;
+  height: auto;
+}
+
+#services h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
+  color: #303030;
+  margin-bottom: 35%;
+
+}
+
+#services h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
+  color: #303030;
+
+}
+
+#services {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#services > article {
+  display: flex;
+  flex-direction: column;
+}
+
+#services > article img {
+  width: 20%;
+  height: auto;
+}
+
+#services > article > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+#services p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: 'Quattrocento', serif;
+  color: #909090;
+  width: 80%;
+}
+
+#hire_me {
+  background-color: #303030;
+  padding: 3% 7%;
+  color: #F6F6F6;
+  font-size: 1.3rem;
+}
+
+#web_specialist > h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
+  color: #303030;
+}
+
+#web_specialist > p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: 'Quattrocento', serif;
+  color: #909090;
+  line-height: 32px;
+  width: 110%;
+  margin-bottom: 20%;
+}
+
+#data {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin-top: 15%;
+}
+
+#data h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: 'Oswald', serif;
+  color: #303030;
+}

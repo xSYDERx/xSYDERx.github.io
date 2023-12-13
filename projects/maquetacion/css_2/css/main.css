@@ -1,0 +1,93 @@
+/* GLOBAL */
+
+body {
+  font-family: poppins, sans-serif;
+  color: white;
+  background: url("../img/smiling-team.png") no-repeat right top;
+  background-color: #515DEF;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#container {
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 100px;
+  max-width: 1440px;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7%;
+}
+
+nav {
+  align-items: center;
+  width: 50%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 50%;
+}
+
+li {
+  margin-right: 11%;
+}
+
+#contact {
+  background-color: #515DEF;
+  padding: 15px 20px;
+}
+/* MAIN */
+
+#collab {
+  display: flex;
+  background-color: white;
+  width: fit-content;
+  padding: 15px 20px;
+  color: black;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  width:60%;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+  width: 55%;
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  margin-top: 4.5%;
+  background-color: white;
+  color: black;
+  padding-left: 10%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+#bottom p {
+  font-size: 0.8em;
+  color: #909090;
+  width: 70%;
+}

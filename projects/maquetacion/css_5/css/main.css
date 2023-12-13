@@ -1,0 +1,173 @@
+/* GLOBAL */
+
+body {
+  font-family: "poppins", sans-serif;
+  color: #949494;
+
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  width: 100%;
+  padding: 2% 5%;
+  max-width: 1440px;
+  background: url(../img/black_man_with_squares.png) no-repeat right;
+  background-size: 60%;
+  background-position: 80% 10%;
+}
+
+a {
+  text-decoration: none;
+  color: #403C39;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+header > img {
+  width: 15%;
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+header > nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+header > div img {
+  width: 50%;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > div > a:nth-child(2) {
+  margin-left: 20px;
+  text-decoration: underline;
+  color: #F38160;
+}
+
+header > div > a:nth-child(3) {
+  margin-left: 20px;
+  color: #FAFAFA;
+  background-color: #F38160;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+header > div > a:nth-child(1)::before {
+  content: "";
+  background-color: #F38160;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  display: inline-block;
+  position: relative;
+  bottom: 25px;
+  left: 35px;
+}
+
+nav a {
+  opacity: 50%;
+}
+
+nav li:first-of-type a {
+  opacity: 100%;
+  color: #F38160;
+  text-decoration: underline;
+}
+
+/* MAIN */
+
+h1 {
+  font-size: 4rem;
+  width: 50%;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #403C39;
+}
+
+h1 span {
+  color: #F38160;
+}
+
+main > section:nth-of-type(1) p {
+  font-size: 1.5rem;
+  width: 46%;
+  margin-bottom: 20px;
+}
+
+input:nth-child(1) {
+  width: 30%;
+  padding: 18px 20px;
+  border: 0px solid #949494;
+  border-radius: 10px 0px 0px 10px;
+  margin-bottom: 20px;
+  background-color: #D0D0D240;
+}
+
+input:nth-child(1)::placeholder {
+  color: #949494;
+}
+
+input:nth-child(2) {
+  width: 5%;
+  position: relative;
+  top: 22px;
+  right: 4px;
+  padding: 18px 20px;
+  border: 0px solid #949494;
+  border-radius: 0px 10px 10px 0px;
+  background: url(../img/Search.svg) no-repeat center;
+  background-color: #F38160;
+}
+
+#checks {
+  display: grid;
+  grid-template-columns: repeat(2, 0.2fr);
+  
+}
+
+#checks > div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: fit-content;
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#bottom img {
+  width: 30%;
+}
