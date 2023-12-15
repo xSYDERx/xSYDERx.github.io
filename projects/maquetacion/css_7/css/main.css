@@ -8,7 +8,10 @@ body {
 }
 
 #container {
-  padding: 2% 7%
+  padding: 2% 7%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -25,10 +28,11 @@ ul {
 header {
   display: flex;
   align-items: center;
+  margin-bottom: 5%;
 }
 
 header > img {
-  width: 14%;
+  width: 15%;
   margin-right: 10%;
 }
 
@@ -36,7 +40,7 @@ ul {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  gap: 18%;
+  gap: 5%;
 }
 
 ul > li {
@@ -47,4 +51,135 @@ ul > li {
 
 ul > li:first-child {
   opacity: 100%;
+}
+
+main {
+  display: flex;
+}
+
+#main {
+ z-index: 1;
+ flex: 0.6;
+}
+
+h1 {
+  font-family: 'playfair display', serif;
+  font-size: 2.5rem;
+}
+
+#main > section > p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 5%;
+  color: #424241;
+  opacity: 50%;
+}
+
+#button {
+  display: flex;
+  gap: 10%;
+}
+
+
+#main > section > div {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#main > section > div:first-of-type a {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 5%;
+  color: #FAF8F5;
+  background-color: #424241;
+  padding: 8% 7%;
+}
+
+#main > section > div:first-of-type img {
+  width: 20%;
+  margin-bottom: -6%;
+}
+
+#main > section > div:last-of-type a {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 5%;
+  color: #424241;
+  padding: 8% 7%;
+}
+
+#main > section > div:last-of-type img {
+  width: 20%;
+  margin-bottom: -6%;
+}
+
+
+#errante {
+  display: flex;
+  z-index: 0;
+  flex: 1;
+}
+#errante > div > img {
+  width: 84%;
+  z-index: 0;
+}
+
+#hero {
+  position: relative;
+  z-index: 2;
+  margin-left: 5%;
+  margin-right: auto;
+  margin-top: -40%;
+  max-width: 65%;
+  background-color: #FAF8F5;
+  padding: 5%;
+}
+
+#hero > div{
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  text-wrap: nowrap;
+}
+
+#hero > div:first-of-type img {
+  justify-self: flex-end;
+  width: 80%;
+}
+#hero > div:nth-of-type(2) img {
+  justify-self: flex-end;
+  width: 60%;
+  margin-left: 30%;
+}
+#hero > div:last-of-type img {
+  justify-self: flex-end;
+  width: 60%;
+  margin-left: 35%;
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40%;
+}
+#bottom div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-wrap: wrap;
+  width: 80%;
+}
+
+
+.number {
+  font-size: 2.7em;
+  margin: 5px;
+  color: #424241;
+  font-weight: 600;;
+}
+.text {
+  font-size: 0.8em;
+  color: #9E9D9B;
+  margin: 5px;
+  width: 50%;
 }
