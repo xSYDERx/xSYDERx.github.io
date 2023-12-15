@@ -1,0 +1,43 @@
+body {
+    background-image: url("../img/blue-ocean-with-fish-silhouette-background-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+  }
+  
+  .boton > div {
+
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .boton > div > a {
+    color: #003572;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 650;
+    border: 3px solid #003572;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    font-size: 15px;
+  }
+  
+  .boton > div > a:hover {
+    color: #ff0000;
+    background-color: #ffffff;
+    border: 3px solid #ff0000;
+  }

@@ -1,0 +1,11 @@
+# www.robotstxt.org/
+
+# Allow crawling of all content
+User-agent: *
+Disallow:https://daw.bienvenidosaez.es/alumnos/dani/html/legal.html
+Disallow: https://daw.bienvenidosaez.es/alumnos/dani/html/cookies.html
+Disallow: https://daw.bienvenidosaez.es/alumnos/dani/html/privacidad.html
+Disallow: https://daw.bienvenidosaez.es/alumnos/dani/html/privacity.html
+Disallow: https://daw.bienvenidosaez.es/alumnos/dani/html/privacidad.html
+Disallow: https://daw.bienvenidosaez.es/alumnos/dani/html/carrito.html
+Disallow: https://daw.bienvenidosaez.es/alumnos/dani/html/compra.html
