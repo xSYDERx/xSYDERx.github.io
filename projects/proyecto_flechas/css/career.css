@@ -1,0 +1,77 @@
+.position-copy h4{
+    color: #495567;
+font-family:"Space Mono", monospace;
+font-weight: bold;
+
+}
+.values {
+    margin-top: 4rem;
+}
+/*Styling for the job postions in tablet and mobile mode*/
+@media (max-width: 766.99px){
+   .job-positions{
+       text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+   }
+    .job-position{
+    margin-top: 3rem;
+    width: 400px;
+    
+}
+.jobPosition{
+    position: relative;
+    background-color: #F2F5F9;
+    width: 100%;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+    height: 190px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.jobPosition .message-us {
+   position: relative;
+   bottom: 0;
+   
+}
+}
+
+@media (max-width: 450px){
+    .job-position{
+    margin-top: 3rem;
+    width: 90%;
+}
+ .jobPosition{
+     height: 250px;
+ }
+}
+/*Styling of the job position in desktop mode*/
+@media (min-width:767px ){
+.job-position{
+    margin-top: 3rem;
+    width: 95%;
+}
+.jobPosition{
+    position: relative;
+    background-color: #F2F5F9;
+    width: 100%;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+    height: 128px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.jobPosition .message-us {
+   position: absolute;
+    right: 1rem;
+}
+}
