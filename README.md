@@ -16,9 +16,9 @@
 <p>This my web page repository with my lastest projects</p>
 <p>At the moment, you can find the next ones:</p>
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Mi first web page, made in the 1st year of WAD</li>
+  <li>10 headers made with HTML & CSS</li>
+  <li>A responsive proyect</li>
 </ul>
 <br>
 <p>Soon I'll be creating a better portfolio, where everything above and new projects will also be included.</p>
