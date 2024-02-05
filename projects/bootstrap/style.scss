@@ -1,0 +1,13 @@
+$secondary: #f2f6fc;
+$btn-secondary: blue;
+$footer: #a6a9ad;
+
+.circular-container {
+    width: 60px;
+    height: 60px; 
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
